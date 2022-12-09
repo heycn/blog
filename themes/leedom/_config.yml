@@ -17,8 +17,7 @@ favicon:
 # 用户头像与昵称
 avatar:
   enable: true
-  author_photo: /images/avatar.png
-  author_nickname: heycn's blog
+  photo: /images/avatar.png
   path: /
 
 # 文章末尾的上一页与下一页
@@ -27,32 +26,27 @@ prevnext:
 
 # 链接信息
 link: 
-  # name: 名称
-  # icon: 图标，目前仅支持IconFont部分图标
-  # path: 地址
-  # target: 跳转方式
   -
-    # 档案
-    name: archives
-    icon: bookmark
+    name: Blog
+    title: Blog
+    icon:
     path: /archives
   -
-    name: github
+    name: Projects
+    title: Projects
+    icon:
+    path: https://github.com/heycn
+  -
+    name:
+    title: GitHub
     icon: github
     path: https://github.com/heycn
     target: _blank
-  # -
-  #   name: email
-  #   icon: envelope
-  #   path: 
   -
-    name: twitter
+    name:
+    title: Twitter
     icon: twitter
     path: https://twitter.com/heycn_112
-  # -
-  #   name: wechat
-  #   icon: wechat
-  #   path:
 
 # 页脚信息
 footer:

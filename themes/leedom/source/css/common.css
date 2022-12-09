@@ -10,56 +10,47 @@ body {
   margin: 0;
 }
 
-img {
-  border: none;
-}
-
 a {
   color: #666;
   text-decoration: none;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition: 0.3s;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-user-select: none;
   -moz-user-focus: none;
   -moz-user-select: none;
 }
 
-.header {
-  margin: 50px auto 15px;
-  text-align: center;
-}
-
-.header a {
-  font-size: 32px;
-  font-weight: 900;
-  color: #000;
-  font-family: "Inter",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 64px 0 32px;
 }
 
 .links {
   text-align: center;
   font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
-  font-size: 16px;
+  font-size: 17px;
   margin: 0;
-}
-
-.links a:hover {
-  color: #000;
 }
 
 .links a {
   cursor: pointer;
-  padding: 2px;
+  padding: 6px;
   margin: 0 3px;
   color: #999;
-;
 }
 
-.links img {
-  height: 16px;
+.links a:hover {
+  color: #000;
+  filter: drop-shadow(0px 0px 0px #374151);
 }
 
-.search-result, .search-input, .post-item, .header, h1, h2, h3, h4, h5, h6 {
+.links a:hover i {
+  filter: drop-shadow(0px 0px 0px #374151);
+}
+
+.search-result, .search-input, .post-item, h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
   font-weight: 400;
   color: #444;
@@ -77,12 +68,6 @@ a {
 }
 
 @media screen and (max-width: 420px) {
-  .header {
-    margin: 40px auto 10px;
-  }
-  .header a {
-    font-size: 14px;
-  }
   .main {
     min-height: calc(100vh - 156px);
   }
