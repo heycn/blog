@@ -35,7 +35,7 @@ link:
     # 档案
     name: archives
     icon: bookmark
-    path: /archives/
+    path: /archives
   -
     name: github
     icon: github
