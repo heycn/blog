@@ -536,10 +536,6 @@ a:hover {
   right: 2px;
 }
 
-.container.archives .title {
-  text-transform: uppercase;
-}
-
 .container.archives .title a:hover {
   color: #000;
 }

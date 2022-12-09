@@ -92,10 +92,6 @@ pre .xml .cdata {
   margin-bottom: 30px;
   border-bottom: 1px solid #e6e6e6;
 }
-.post h1,
-.post h2 {
-  text-transform: uppercase;
-}
 .post h1 a:hover,
 .post h2 a:hover {
   border-bottom: 3px solid #666;
