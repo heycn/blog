@@ -95,5 +95,5 @@ theme: leedom
 
 deploy:
   type: git
-  repo: https://github.com/heycn/blog.git
+  repo: https://github.com/heycn/heycn.github.io.git
   branch: master
