@@ -160,8 +160,8 @@ pre .xml .cdata {
   border-bottom: 2px solid transparent;
 }
 .post .content a:hover {
-  color: #f33;
-  border-bottom-color: #f33;
+  color: #000;
+  border-bottom-color: #000;
 }
 .post .content .highlight,
 .post .content .highlight table {

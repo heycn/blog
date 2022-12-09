@@ -18,7 +18,7 @@ favicon:
 avatar:
   enable: true
   author_photo: /images/avatar.png
-  author_nickname: 陈楠的博客
+  author_nickname: heycn's blog
   path: /
 
 # 文章末尾的上一页与下一页
