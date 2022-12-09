@@ -95,5 +95,5 @@ theme: theme1
 
 deploy:
   type: git
-  repo: https://github.com/heycn/heycn.github.io.git
+  repo: git@github.com:heycn/heycn.github.io.git
   branch: master
