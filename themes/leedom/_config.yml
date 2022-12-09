@@ -16,8 +16,9 @@ favicon:
 
 # 用户头像与昵称
 avatar:
+  enable: true
   author_photo: /images/avatar.png
-  author_nickname:
+  author_nickname: 陈楠的博客
   path: /
 
 # 文章末尾的上一页与下一页
