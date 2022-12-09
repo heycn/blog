@@ -39,21 +39,24 @@ a {
 .links {
   text-align: center;
   font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
-  color: #999;
-  font-size: 24px;
+  font-size: 16px;
   margin: 0;
+}
+
+.links a:hover {
+  color: #000;
 }
 
 .links a {
   cursor: pointer;
   padding: 2px;
   margin: 0 3px;
-  color: #bbb;
+  color: #999;
+;
 }
 
 .links img {
-  width: 15px;
-  height: 15px;
+  height: 16px;
 }
 
 .search-result, .search-input, .post-item, .header, h1, h2, h3, h4, h5, h6 {
