@@ -59,7 +59,7 @@ a:hover {
 }
 
 .container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .index .post-list, .friend-index .friend-list, .archives .post-list, .tag-index .tag-list, .about-index .markdown-body {
@@ -127,6 +127,14 @@ a:hover {
 
 .tag-details .time-m-d, .archives .time-m-d, .category-details .time-m-d {
   margin: 0 30px;
+}
+
+.avatar {
+  height: 64px;
+}
+
+.avatar >a {
+  position: fixed;
 }
 
 .avatar img {
@@ -404,9 +412,13 @@ a:hover {
 
 .back-to-top {
   position: fixed;
-  right: 1.2rem;
-  bottom: 5.2rem;
+  right: 8rem;
+  bottom: 8rem;
   font-weight: bold;
+}
+
+.back-to-top >a >i {
+  font-size: 32px;
 }
 
 .back-to-top.hidden {
@@ -548,5 +560,8 @@ a:hover {
 @media (max-width: 768px) {
   .search-box {
     width: 100%;
+  }
+  .avatar {
+    display: none;
   }
 }

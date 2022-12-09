@@ -90,7 +90,6 @@ pre .xml .cdata {
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #e6e6e6;
 }
 .post h1 a:hover,
 .post h2 a:hover {
@@ -99,22 +98,26 @@ pre .xml .cdata {
 .post h1 {
   color: #000;
   font-weight: 900;
-  font-size: 36px;
-  letter-spacing: 1px;
+  font-size: 32px;
+}
+.post-title {
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 .post h2 {
   font-size: 24px;
   margin: 60px 0 30px;
   position: relative;
+  font-weight: 700;
 }
-.post h2:before {
+/* .post h2:before {
   content: '';
   border-left: 5px solid #f66;
   position: absolute;
   left: -15px;
   height: 75%;
   top: 12%;
-}
+} */
 .post h3 {
   margin: 30px 0 15px;
 }
@@ -127,7 +130,7 @@ pre .xml .cdata {
 }
 .post .content {
   text-align: left;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 .post .content p,
 .post .content ul,

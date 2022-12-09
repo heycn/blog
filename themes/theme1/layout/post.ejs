@@ -3,32 +3,27 @@
 
 <!-- LaTex Display -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script>
   MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
+      inlineMath: [
+        ['$', '$'],
+        ['\\(', '\\)']
+      ]
     }
-  };
+  }
 </script>
 
 <div class="post">
-  <h1>
-    <%- page.title %>
-  </h1>
-  <h3 class="date">
-    <%- page.date.format('MMM DD, YYYY') %>
-  </h3>
-  <div class="content markdown-body">
-    <%- page.more %>
-  </div>
-  <% if(theme.prevnext.enable) { %>
-    <% if(page.next) { %>
-      <a id="older" class="blog-nav" href="<%- url_for(page.next.path) %>">OLDER&nbsp;&gt;</a>
-      <% } %>
-        <% if(page.prev) { %>
-          <a id="newer" class="blog-nav" href="<%- url_for(page.prev.path) %>">&lt;&nbsp;NEWER</a>
-          <% } %>
-            <% } %>
+  <h1 class="post-title"><%- page.title %></h1>
+  <h3 class="date"><%- page.date.format('MMM DD, YYYY') %></h3>
+  <div class="content markdown-body"><%- page.more %></div>
+  <% if(theme.prevnext.enable) { %> <% if(page.next) { %>
+  <a id="older" class="blog-nav" href="<%- url_for(page.next.path) %>">OLDER&nbsp;&gt;</a>
+  <% } %> <% if(page.prev) { %>
+  <a id="newer" class="blog-nav" href="<%- url_for(page.prev.path) %>">&lt;&nbsp;NEWER</a>
+  <% } %> <% } %>
+  <br />
+  <a href="https://heycn.github.io/archives/" class="cd">cd ../</a>
 </div>

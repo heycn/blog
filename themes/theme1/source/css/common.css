@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
+  font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,12 +59,27 @@ a {
 .main {
   max-width: 600px;
   margin: 50px auto 0;
-  padding: 0 30px;
+  padding: 32px;
+  padding-top: 0;
   position: relative;
   min-height: calc(100vh - 176px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.cd {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid #e3e3e3;
+  transition: all .3s;
+}
+
+.cd:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
 }
 
 @media screen and (max-width: 420px) {
