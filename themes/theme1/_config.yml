@@ -36,6 +36,12 @@ link:
     title: Projects
     icon:
     path: https://github.com/heycn
+    target: _blank
+  -
+    name: Docs
+    title: Docs
+    icon:
+    path: /
   -
     name:
     title: GitHub
@@ -47,6 +53,12 @@ link:
     title: Twitter
     icon: twitter
     path: https://twitter.com/heycn_112
+    target: _blank
+  -
+    name:
+    title: Email
+    icon: envelope
+    path: mailto:heycn@foxmail.com
 
 # 页脚信息
 footer:

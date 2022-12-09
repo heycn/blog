@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: heycn's blog
+title: heycn
 subtitle: '学习是一种习惯'
 description: ''
 keywords: '陈楠的博客'
-author: heycn
+author: 陈楠
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -91,7 +91,7 @@ include:
 exclude:
 ignore:
 
-theme: leedom
+theme: theme1
 
 deploy:
   type: git
