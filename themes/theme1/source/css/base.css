@@ -159,9 +159,14 @@ a:hover {
 }
 
 .content-title {
-  font-size: 1.6rem;
+  font-size: 6rem;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: -80px;
+}
+.content-title > h2 > span {
+  color: #000;
+  opacity: 0.1;
+  font-weight: 900;
 }
 
 .navbar {
