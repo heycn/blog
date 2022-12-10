@@ -28,6 +28,8 @@ a {
 }
 
 .links {
+  display: flex;
+  align-items: center;
   text-align: center;
   font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
   font-size: 17px;

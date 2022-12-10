@@ -137,6 +137,19 @@ a:hover {
   position: fixed;
 }
 
+
+@media (max-width: 1000px) {
+  .avatar >a {
+    position: relative;
+  }
+}
+
+@media (max-width: 680px) {
+  .avatar {
+    display: none;
+  }
+}
+
 .avatar img {
   height: 64px;
 }
@@ -560,8 +573,5 @@ a:hover {
 @media (max-width: 768px) {
   .search-box {
     width: 100%;
-  }
-  .avatar {
-    display: none;
   }
 }

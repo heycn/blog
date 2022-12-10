@@ -29,38 +29,92 @@ link:
   -
     name: Blog
     title: Blog
-    icon:
+    icon: emoji-friendly
     path: /archives
-  -
-    name: Projects
-    title: Projects
-    icon:
-    path: https://github.com/heycn
-    target: _blank
   -
     name: Docs
     title: Docs
-    icon:
+    icon: tags
     path: /
+    target: _blank
   -
-    name:
+    name: GitHub
     title: GitHub
     icon: github
     path: https://github.com/heycn
     target: _blank
   -
-    name:
+    name: WeChat
+    title: WeChat
+    icon: wechat
+    path: /images/wechat.jpg
+    target: _blank
+  -
+    name: Twitter
     title: Twitter
     icon: twitter
     path: https://twitter.com/heycn_112
     target: _blank
   -
-    name:
+    name: Email
     title: Email
     icon: envelope
     path: mailto:heycn@foxmail.com
 
-# 页脚信息
+# 项目信息
+project: 
+  -
+    name: flag ui
+    describe: vue3 UI组件库
+    path: https://heycn.github.io/flag-ui-website/
+  -
+    name: 梅开二度
+    describe: 梅花生长动画小 demo
+    path: https://heycn.github.io/plum-website/
+  -
+    name: feeling ui
+    describe: vue2 UI组件库
+    path: https://heycn.gitee.io/feeling-ui/
+  -
+    name: mini redux
+    describe: 一个简单的 redux 实现
+    path: https://github.com/heycn/mini-redux/
+  -
+    name: tree animation
+    describe: 会动的树
+    path: https://heycn.github.io/tree-animation-website/
+  -
+    name: 口袋记账
+    describe: 用来记账的 webapp
+    path: https://heycn.github.io/pocket-react-website/
+  -
+    name: 会动的皮卡丘
+    describe: 画个皮卡丘给你！
+    path: https://heycn.github.io/pikachu/dist/index.html/
+
+greetings:
+  -
+    label: 👋 Hi,
+  -
+    label: I'm ChenNan.
+
+introduction:
+  -
+    label: A software developer. Most of my work is Front-End.
+  -
+    label: I like making interesting projects.
+  -
+    label: Outside of programming, I enjoy running, reading and drink beer.
+  - 
+    label: Find me on 
+           <a href="https://github.com/heycn" target="_blank">GitHub</a>, 
+           <a href="https://twitter.com/heycn_112" target="_blank">Twitter</a>, 
+           <a href="https://juejin.cn/user/4372092371864984" target="_blank">掘金</a> 
+           or 
+           <a href="https://www.zhihu.com/people/wo-bu-shi-chen-nan" target="_blank">知乎.</a> 
+           Mail me at
+           <a href="mailto:heycn@foxmail.com">heycn@foxmail.com</a>.
+
 footer:
   -
     name:

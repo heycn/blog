@@ -6,9 +6,8 @@
 <div class="container archives">
   <div class="post-list">
     <%
-      var prev = -10086;// prev year
-      var curr;// curr year, ever step be updated
-
+      var prev = -10086;
+      var curr;
       site.posts.sort('date', -1).each(function(item, index) {
         curr = item.date.year()
         if (curr !== prev) {
@@ -35,10 +34,7 @@
           </a>
         </div>
       </div>
-    <%
-      });
-    %>
-    <br />
-    <a href="/" class="cd" >cd ../</a>
+    <% }); %>
+    <br /> <a href="/" class="cd" >cd ../</a>
   </div>
 </div>
