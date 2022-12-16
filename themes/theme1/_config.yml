@@ -64,9 +64,9 @@ link:
 # 项目信息
 project: 
   -
-    name: flag ui
-    describe: vue3 UI组件库
-    path: https://heycn.github.io/flag-ui-website/
+    name: mini redux
+    describe: 从零到 redux 的实现
+    path: https://github.com/heycn/mini-redux/
   -
     name: 梅开二度
     describe: 梅花生长动画小 demo
@@ -76,9 +76,9 @@ project:
     describe: vue2 UI组件库
     path: https://heycn.gitee.io/feeling-ui/
   -
-    name: mini redux
-    describe: 一个简单的 redux 实现
-    path: https://github.com/heycn/mini-redux/
+    name: flag ui
+    describe: vue3 UI组件库
+    path: https://heycn.github.io/flag-ui-website/
   -
     name: tree animation
     describe: 会动的树
