@@ -32,7 +32,7 @@ a {
   align-items: center;
   text-align: center;
   font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
-  font-size: 17px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -87,5 +87,8 @@ a {
 @media screen and (max-width: 420px) {
   .main {
     min-height: calc(100vh - 156px);
+  }
+  .links {
+    font-size: 14px;
   }
 }
