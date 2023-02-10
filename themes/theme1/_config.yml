@@ -68,15 +68,19 @@ project:
     describe: 从零到 redux 的实现
     path: https://github.com/heycn/mini-redux/
   -
+    name: JavaScript HotPot
+    describe: 天天造轮子，提高编程水平
+    path: https://github.com/heycn/javascript-hotpot
+  -
     name: 梅开二度
     describe: 梅花生长动画小 demo
     path: https://heycn.github.io/plum-website/
   -
-    name: feeling ui
+    name: feeling UI
     describe: vue2 UI组件库
     path: https://heycn.gitee.io/feeling-ui/
   -
-    name: flag ui
+    name: flag UI
     describe: vue3 UI组件库
     path: https://heycn.github.io/flag-ui-website/
   -
