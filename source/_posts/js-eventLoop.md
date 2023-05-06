@@ -93,9 +93,6 @@ top:
 
 解决这个问题的方法就是 —— 排队
 
-
-![排队](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cc7e3e7b42184b6dabebedbee58b0edc~tplv-k3u1fbpfcp-watermark.image?)
-
 - 在最开始的时候，渲染主进程会进入一个无限循环（浏览器源码 `base/message_loop/message_pump_default.cc` 中，渲染主线程的启动函数中写了 `for (;;) { ...some code }`）
 - 每一次循环会检查消息队列中是否有任务存在。如果有，就取出第一个任务执行，执行完一个后，进入下一次循环，如果没有，则进入休眠状态
 - 其他所有线程（包括其他进程的线程）可以随时向消息队列添加任务。新任务会加到消息队列的末尾。在添加新任务时，如果主线程是休眠状态，则会将其唤醒，继续循环拿任务
@@ -118,14 +115,8 @@ top:
 
 以下为「同步」示例图
 
-![异步](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/12b93cf98c344618adcf47ca9e44d618~tplv-k3u1fbpfcp-watermark.image?)
 渲染主线程承担着极其重要的工作，无论如何都不能阻塞！\
 因此，浏览器选择异步来解决这个问题
-
-以下为「异步」示例图
-
-
-![异步](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca541cd5ee0540f6affcd55ce067efe5~tplv-k3u1fbpfcp-watermark.image?)
 
 使用异步的方式，渲染主线程永不阻塞
 
