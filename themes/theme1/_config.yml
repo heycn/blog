@@ -64,13 +64,21 @@ link:
 # 项目信息
 project: 
   -
+    name: Wallpaper
+    describe: 一款干净的壁纸切换软件
+    path: https://github.com/heycn/wallpaper
+  -
+    name: Code More
+    describe: 尽量去写更多的代码！
+    path: https://github.com/heycn/code-more
+  -
+    name: Money Mate
+    describe: 你的移动记账伴侣
+    path: https://money-mate.netlify.app/
+  -
     name: mini redux
     describe: 从零到 redux 的实现
     path: https://github.com/heycn/mini-redux/
-  -
-    name: JavaScript HotPot
-    describe: 天天造轮子，提高编程水平
-    path: https://github.com/heycn/javascript-hotpot
   -
     name: 梅开二度
     describe: 梅花生长动画小 demo
@@ -87,10 +95,6 @@ project:
     name: tree animation
     describe: 会动的树
     path: https://heycn.github.io/tree-animation-website/
-  -
-    name: 口袋记账
-    describe: 用来记账的 webapp
-    path: https://heycn.github.io/pocket-react-website/
   -
     name: 会动的皮卡丘
     describe: 画个皮卡丘给你！
